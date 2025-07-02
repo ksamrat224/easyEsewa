@@ -8,7 +8,7 @@ const HomeScreen = () => {
   const handleEsewaPayment = async () => {
     try {
       const result = await EsewaModule.startEsewaPayment(
-        '100.0',                     // amounthhjjhjh
+        '100.0',                     // amounthhjjhjhkkkkk
         'Test Payment',              // product name
         'prod123',                   // product ID
         'https://yourdomain.com/callback' // callback URL
