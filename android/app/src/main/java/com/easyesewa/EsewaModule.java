@@ -50,7 +50,7 @@ public class EsewaModule extends ReactContextBaseJavaModule {
         currentActivity.startActivityForResult(intent, REQUEST_CODE_PAYMENT);
     }
 
-    @ActivityEventListener
+
     private final ActivityEventListener activityEventListener = new BaseActivityEventListener() {
         @Override
         public void onActivityResult(Activity activity, int requestCode, int resultCode, @Nullable Intent data) {
